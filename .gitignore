@@ -1,0 +1,26 @@
+# Sensitive config — NEVER commit DB credentials
+/config/database.php
+
+# Composer & npm dependencies
+/vendor/
+/node_modules/
+
+# IDE files
+.idea/
+.vscode/settings.json
+*.swp *.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Uploads (keep folder via .gitkeep)
+/assets/uploads/*
+!/assets/uploads/.gitkeep
+
+# Temp
+*.tmp *.temp /tmp/ /cache/
